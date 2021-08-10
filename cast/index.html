@@ -20,8 +20,8 @@
         </script>
         <link rel="preconnect" href="//www.google.com">
         <link rel="preconnect" href="https://www.gstatic.com">
-        <link rel="preload" href="../common/css/reset.css" as="style">
-        <link rel="preload" href="../common/css/layout.css" as="style">
+        <link rel="preload" href="https://www.jma.go.jp/bosai/common/css/reset.css" as="style">
+        <link rel="preload" href="https://www.jma.go.jp/bosai/common/css/layout.css" as="style">
         <link rel="preload" href="../ad/css/KST_specificAd_CSS.css" as="style">
         <link rel="preload" href="../jmatile/fonts/MaterialIcons.woff2" as="font" crossorigin>
         <link rel="preload" href="../jmatile/css/jmatile.bundle.d5bc9f2a5d95bc946d5d.css" as="style">
@@ -38,14 +38,14 @@
         <img class="jmatile-hidden" id="texture_warning" src="./images/texture_warning.svg" width="16" height="16">
         <img class="jmatile-hidden" id="texture_caution" src="./images/texture_caution.svg" width="16" height="16">
         <img class="jmatile-hidden" id="texture_hazard_landslide" src="./images/texture_hazard_landslide.svg" width="12" height="12">
-        <script src="../common/lib/jquery-3.4.1.min.js"></script>
-        <script src="../common/js/jmaweb_utility.min.js"></script>
-        <script src="../common/js/area_menu_map.min.js"></script>
-        <script src="../ad/js/KST_specificAd_script_afterExecute_writeActionOnly.min.js"></script>
-        <script src="../common/js/adflag_controller.min.js"></script>
-        <script src="../jmatile/js/jmatile.bundle.601e4dcd4093aaa9844a.js"></script>
+        <script src="https://www.jma.go.jp/bosai/common/lib/jquery-3.4.1.min.js"></script>
+        <script src="https://www.jma.go.jp/bosai/common/js/jmaweb_utility.min.js"></script>
+        <script src="https://www.jma.go.jp/bosai/common/js/area_menu_map.min.js"></script>
+        <script src="https://www.jma.go.jp/bosai/ad/js/KST_specificAd_script_afterExecute_writeActionOnly.min.js"></script>
+        <script src="https://www.jma.go.jp/bosai/common/js/adflag_controller.min.js"></script>
+        <script src="https://www.jma.go.jp/bosai/jmatile/js/jmatile.bundle.601e4dcd4093aaa9844a.js"></script>
         <script>
-            fetch("../common/const/contents.json").then((function(e) {
+            fetch("https://www.jma.go.jp/bosai/common/const/contents.json").then((function(e) {
                 if (e.status >= 200 && e.status < 300)
                     return e.json();
                 throw new Error(e.status + " " + e.statusText)
